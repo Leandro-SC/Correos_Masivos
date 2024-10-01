@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      p {
+        font-family: sans-serif;
+      }
+      .email-container {
+        max-width: 600px;
+        background-color: #ffffff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      .header {
+        background-color: #001f60;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        border-radius: 10px 10px 0 0;
+        display: flex;
+        justify-content: space-around;
+      }
+      .imagen {
+        height: 113px;
+        width: 212px;
+      }
+      h2 {
+        text-transform: uppercase;
+        width: 297px;
+      }
+      .content {
+        padding: 20px;
+        line-height: 1.6;
+        color: #333333;
+        text-align: justify;
+      }
+      .footer {
+        background: #001f60;
+        max-width: 100%;
+      }
+      .texto-footer {
+        text-align: center;
+        font-size: 0.9em;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="email-container">
+      <div class="header">
+        <img class="imagen" src="./img/logo_2_nuevo.png" alt="logo instituto" />
+        <h2>Certificado "Chambea IESRP" 2024</h2>
+      </div>
+      <div class="content">
+        <p>Estimado/a <strong>{nombre_estudiante}</strong>,</p>
+        <p>
+          Queremos agradecerte sinceramente por tu asistencia y activa
+          participación en la Feria Laboral "Chambea IESRP" 2024, realizada en
+          modalidad semipresencial.
+        </p>
+        <p>
+          Tu compromiso y entusiasmo contribuyeron al éxito de esta edición.
+        </p>
+        <p>
+          Esperamos que esta experiencia haya sido enriquecedora y útil para tu
+          desarrollo profesional.
+        </p>
+        <p>¡Te animamos a seguir aprovechando estas oportunidades!</p>
+      </div>
+      <div class="footer">
+        <p class="texto-footer">Oficina de Empleabilidad</p>
+      </div>
+    </div>
+  </body>
+</html>
